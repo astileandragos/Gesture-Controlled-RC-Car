@@ -5,7 +5,7 @@ A wireless RC vehicle controlled via hand gestures, mapping IMU tilt data to mot
 ## Hardware & Tech Stack
 - **Microcontrollers:** 1x Arduino Nano (Glove), 1x Arduino Uno (Car)
 - **Sensors & Modules:** ICM-20948 IMU, nRF24L01 (Wireless Transceiver), L298N (Motor Driver)
-- **Language:** C / Arduino C++
+- **Language:** Arduino C++
 
 ## Key Features
 - **Dynamic Calibration & Filtering:** The transmitter calibrates the IMU on startup and uses a low-pass filter to smooth the data.

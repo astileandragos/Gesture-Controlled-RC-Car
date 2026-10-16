@@ -4,7 +4,7 @@ A wireless RC vehicle controlled via hand gestures, mapping IMU tilt data to mot
 
 ## Hardware Demo
 *Live demonstration of the gesture-controlled car in action, successfully translating hand tilt into physical movement:*  
-![Gesture Car Demo](gc_car.jpg)
+![Gesture Car Demo](gc_car.gif)
 
 ## Hardware & Tech Stack
 - **Microcontrollers:** 1x Arduino Nano (Transmitter/Glove), 1x Arduino Uno (Receiver/Car)

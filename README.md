@@ -32,7 +32,7 @@ The system is divided into two distinct units: the gesture-sensing transmitter a
 - **Failsafe Mechanism:** The receiver implements a 500ms timeout system; if the radio signal is lost or interrupted, the motors stop automatically to prevent accidents.
 - **H-Bridge Control:** The L298N motor driver receives PWM signals to efficiently manage motor speed and direction.
 
-## 🚀 Setup & Run
+## Setup & Run
 1. Assemble the **Transmitter** and **Receiver** hardware according to the schematics provided above.
 2. Upload `emitter_glove.ino` to the Arduino Nano. **Note:** Keep the IMU completely still during startup for accurate reference calibration.
 3. Upload `receiver_car.ino` to the Arduino Uno.
